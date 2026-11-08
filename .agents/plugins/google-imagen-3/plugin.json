@@ -1,0 +1,7 @@
+{
+  "name": "google-imagen-3",
+  "displayName": "Google Imagen 3.0 Image Generator",
+  "version": "1.0.0",
+  "description": "Google Imagen 3.0 (imagen-3.0-generate-002) MCP 生圖伺服器，可直接將生成的遊戲角色與卡牌特效 PNG 存入專案資料夾。"
+}
+

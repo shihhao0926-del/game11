@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- 奇幻星辰背景光暈 -->
+    <radialGradient id="magicAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.55" />
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 魔女帽漸層 -->
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581c87" />
+      <stop offset="50%" stop-color="#3b0764" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- 魔法披風與長袍漸層 -->
+    <linearGradient id="robeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#311068" />
+    </linearGradient>
+
+    <!-- 頭髮漸層（櫻粉紫漸層） -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- 星辰魔杖寶石光暈 -->
+    <radialGradient id="gemGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 黃金徽章漸層 -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景魔法陣與星光 -->
+  <circle cx="120" cy="125" r="105" fill="url(#magicAura)" />
+  <circle cx="120" cy="125" r="86" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6" />
+  <polygon points="120,35 198,170 42,170" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.35" />
+  <polygon points="120,215 198,80 42,80" fill="none" stroke="#facc15" stroke-width="1.2" opacity="0.35" />
+
+  <!-- 漂浮的數學魔法符文 -->
+  <text x="36" y="72" fill="#fde047" font-family="sans-serif" font-size="16" font-weight="bold" opacity="0.85">+</text>
+  <text x="195" y="68" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold" opacity="0.85">×</text>
+  <text x="30" y="150" fill="#f472b6" font-family="sans-serif" font-size="16" font-weight="bold" opacity="0.85">÷</text>
+  <text x="198" y="162" fill="#a7f3d0" font-family="sans-serif" font-size="14" font-weight="bold" opacity="0.85">90°</text>
+
+  <!-- 後方長髮 -->
+  <path d="M 72 95 Q 52 145 64 195 Q 80 185 86 165 Z" fill="url(#hairGrad)" />
+  <path d="M 168 95 Q 188 145 176 195 Q 160 185 154 165 Z" fill="url(#hairGrad)" />
+
+  <!-- 魔法學院披風與長袍 -->
+  <path d="M 68 220 Q 75 155 92 142 L 148 142 Q 165 155 172 220 Z" fill="url(#robeGrad)" stroke="#e9d5ff" stroke-width="2.5" />
+  <!-- 學院領巾與金色蝴蝶結 -->
+  <path d="M 94 142 L 120 168 L 146 142 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+  <polygon points="120,155 106,148 106,162" fill="url(#goldGrad)" />
+  <polygon points="120,155 134,148 134,162" fill="url(#goldGrad)" />
+  <circle cx="120" cy="155" r="4.5" fill="#eab308" />
+
+  <!-- 長袍上的星座幾何紋飾 -->
+  <polygon points="120,174 108,198 132,198" fill="none" stroke="#fde047" stroke-width="1.8" />
+  <circle cx="120" cy="174" r="2.5" fill="#fde047" />
+  <circle cx="108" cy="198" r="2.5" fill="#fde047" />
+  <circle cx="132" cy="198" r="2.5" fill="#fde047" />
+
+  <!-- 臉龐與耳朵 -->
+  <ellipse cx="78" cy="112" rx="6" ry="8" fill="#ffedd5" />
+  <ellipse cx="162" cy="112" rx="6" ry="8" fill="#ffedd5" />
+  <rect x="112" y="132" width="16" height="14" rx="5" fill="#ffedd5" />
+  <circle cx="120" cy="108" r="38" fill="#ffedd5" stroke="#fed7aa" stroke-width="1.5" />
+
+  <!-- 瀏海與側髮 -->
+  <path d="M 80 102 Q 84 74 120 74 Q 156 74 160 102 Q 146 86 135 98 Q 120 82 105 98 Q 94 86 80 102 Z" fill="url(#hairGrad)" />
+  <path d="M 81 96 Q 74 125 83 148 Q 88 128 88 106 Z" fill="url(#hairGrad)" />
+  <path d="M 159 96 Q 166 125 157 148 Q 152 128 152 106 Z" fill="url(#hairGrad)" />
+
+  <!-- 可愛大眼睛（含高光） -->
+  <ellipse cx="104" cy="112" rx="7.5" ry="9" fill="#3b0764" />
+  <ellipse cx="136" cy="112" rx="7.5" ry="9" fill="#3b0764" />
+  <ellipse cx="104" cy="114" rx="5.5" ry="6" fill="#9333ea" />
+  <ellipse cx="136" cy="114" rx="5.5" ry="6" fill="#9333ea" />
+  <circle cx="101.5" cy="108.5" r="3" fill="#ffffff" />
+  <circle cx="133.5" cy="108.5" r="3" fill="#ffffff" />
+  <circle cx="106.5" cy="116" r="1.5" fill="#ffffff" />
+  <circle cx="138.5" cy="116" r="1.5" fill="#ffffff" />
+
+  <!-- 眉毛、腮紅與自信微笑 -->
+  <path d="M 96 99 Q 104 95 111 99" fill="none" stroke="#7e22ce" stroke-width="2" stroke-linecap="round" />
+  <path d="M 129 99 Q 136 95 144 99" fill="none" stroke="#7e22ce" stroke-width="2" stroke-linecap="round" />
+  <ellipse cx="92" cy="121" rx="6.5" ry="3.5" fill="#fb7185" opacity="0.45" />
+  <ellipse cx="148" cy="121" rx="6.5" ry="3.5" fill="#fb7185" opacity="0.45" />
+  <path d="M 113 124 Q 120 131 127 124" fill="none" stroke="#e11d48" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- 奇幻大魔女帽 -->
+  <path d="M 42 86 Q 120 64 198 86 Q 160 100 120 100 Q 80 100 42 86 Z" fill="url(#hatGrad)" stroke="#d8b4fe" stroke-width="2.5" />
+  <path d="M 76 80 L 95 36 Q 118 12 138 20 L 126 38 L 164 80 Z" fill="url(#hatGrad)" stroke="#d8b4fe" stroke-width="2.5" stroke-linejoin="round" />
+  <!-- 帽帶與黃金括號星徽 -->
+  <path d="M 77 79 Q 120 70 163 79" fill="none" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" />
+  <polygon points="120,56 124,67 136,67 126,74 130,85 120,78 110,85 114,74 104,67 116,67" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="1" />
+
+  <!-- 左手捧著《數學魔導書》 -->
+  <g transform="translate(42, 162) rotate(-10)">
+    <rect x="0" y="0" width="44" height="34" rx="4" fill="#7c2d12" stroke="#facc15" stroke-width="2.5" />
+    <path d="M 4 4 L 21 6 L 21 30 L 4 28 Z" fill="#fef9c3" />
+    <path d="M 40 4 L 23 6 L 23 30 L 40 28 Z" fill="#fef08a" />
+    <text x="12" y="21" fill="#7c2d12" font-size="9" font-weight="bold" text-anchor="middle">1+2</text>
+    <text x="31" y="21" fill="#7c2d12" font-size="9" font-weight="bold" text-anchor="middle">×÷</text>
+  </g>
+  <circle cx="68" cy="182" r="7" fill="#ffedd5" stroke="#fed7aa" stroke-width="1.5" />
+
+  <!-- 右手揮動星辰魔杖 -->
+  <line x1="165" y1="205" x2="196" y2="108" stroke="#b45309" stroke-width="5.5" stroke-linecap="round" />
+  <line x1="165" y1="205" x2="196" y2="108" stroke="#fde047" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+  <circle cx="196" cy="105" r="22" fill="url(#gemGlow)" />
+  <polygon points="196,88 201,99 213,99 203,106 207,118 196,111 185,118 189,106 179,99 191,99" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="1.5" />
+  <circle cx="174" cy="180" r="7" fill="#ffedd5" stroke="#fed7aa" stroke-width="1.5" />
+</svg>
+

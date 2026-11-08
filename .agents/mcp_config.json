@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "google-imagen-3": {
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "c:/Users/hsunyau/Desktop/遊戲製作/game11/.agents/mcp/imagen3_mcp_server.ps1"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "YOUR_GEMINI_API_KEY_HERE",
+        "IMAGEN_MODEL": "imagen-3.0-generate-002"
+      }
+    }
+  }
+}
+
